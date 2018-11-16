@@ -22,12 +22,11 @@ function johnLennonFacts() {
 
 
 
-function iLoveTheBeatles() {
-  var newArray = []
-  var i = 0
+function iLoveTheBeatles(num) {
+  var love = []
   do {
-  newArray.push("I love the Beatles!"); i++
-} while (i < 15)
-  return newArray 
-
+    love.push("I love the Beatles!");
+    num++
+  } while (num < 15)
+  return love
 }
