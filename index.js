@@ -5,7 +5,7 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return allMusicians
 }
-function johnLennonFacts(facts) {
+function johnLennonFacts() {
   var facts = [
     "He was the last Beatle to learn to drive",
     "He was never a vegetarian",
@@ -18,4 +18,16 @@ function johnLennonFacts(facts) {
     newFacts.push(facts[i] +"!!!"); i++
   }
   return newFacts
+}
+
+
+
+function iLoveTheBeatles() {
+  var newArray = []
+  var i = 0
+  do { 
+  newArray.push("I love the Beatles!"); i++
+} while (i < 15)
+  return newArray 
+  
 }
